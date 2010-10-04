@@ -7,11 +7,8 @@ Group: 		Networking/Other
 Url: 		http://www.nongnu.org/aldo
 Source: 	%{name}-%{version}.tar.bz2
 Patch0:  	cwtone_rise_fall.diff
-Requires: 	libao
-
-
 BuildRequires:  libao-devel readline-devel
-
+Requires: 	libao
 
 
 
