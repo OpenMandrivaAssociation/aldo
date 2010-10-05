@@ -10,9 +10,6 @@ Patch0:  	cwtone_rise_fall.diff
 BuildRequires:  libao-devel readline-devel
 Requires: 	libao
 
-
-
-
 %description
 aldo  is a morse tutor released under GPL.
 At this moment Aldo has four kinds of exercises:
@@ -22,7 +19,6 @@ At this moment Aldo has four kinds of exercises:
 *  Read from file (text file)
 *  Callsign exercies (random callsigns)
 
-Prefix: /usr
 
 %prep
 rm -rf $RPM_BUILD_ROOT 
@@ -33,7 +29,7 @@ mkdir $RPM_BUILD_ROOT
 
 %build
 CFLAGS="$RPM_OPT_FLAGS" CXXFLAGS="$RPM_OPT_FLAGS" \
-./configure --prefix=%{prefix} || cat config.log
+./configure --prefix=/usr || cat config.log
 echo "################"
 #cat config.log || true
 echo "################"
