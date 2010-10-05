@@ -43,8 +43,6 @@ make
 
 %makeinstall
 
-
-
 %post
 
 
