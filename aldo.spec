@@ -1,11 +1,12 @@
 Name: 		aldo
-Version: 	0.7.5
+Version: 	0.7.6
 Summary: 	Console-based morse tutor 
-Release: 	%mkrel 2
+Release: 	%mkrel 1
 License: 	GPLv2+
 Group: 		Networking/Other 
 Url: 		http://www.nongnu.org/aldo
-Source: 	http://savannah.nongnu.org/download/aldo/%{name}-%{version}.tar.bz2
+Source0: 	http://savannah.nongnu.org/download/aldo/%{name}-%{version}.tar.bz2
+Source1:	http://savannah.nongnu.org/download/aldo/%{name}-%{version}.tar.bz2.sig
 BuildRequires:	libao-devel
 BuildRequires:	readline-devel
 
