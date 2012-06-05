@@ -1,5 +1,5 @@
 Name: 		aldo
-Version: 	0.7.6
+Version: 	0.7.7
 Summary: 	Console-based morse tutor 
 Release: 	%mkrel 1
 License: 	GPLv2+
@@ -26,14 +26,9 @@ Console-based morse tutor which has four kinds of exercises:
 %make
 
 %install
-rm -rf %{buildroot}
 %makeinstall_std
 
-%clean
-rm -rf %{buildroot}
-
 %files -n %{name}
-%defattr(-,root,root,0755)
 %doc AUTHORS ChangeLog NEWS README THANKS
 %{_bindir}/aldo
 %{_mandir}/man1/aldo*
