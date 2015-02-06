@@ -1,7 +1,7 @@
 Name: 		aldo
 Version: 	0.7.7
 Summary: 	Console-based morse tutor 
-Release: 	%mkrel 1
+Release: 	2
 License: 	GPLv2+
 Group: 		Networking/Other 
 Url: 		http://www.nongnu.org/aldo
