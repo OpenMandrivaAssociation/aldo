@@ -4,7 +4,7 @@ Summary: 	Console-based morse tutor
 Release: 	1
 License: 	GPLv2+
 Group: 		Networking/Other 
-Url: 		http://www.nongnu.org/aldo
+Url: 		https://www.nongnu.org/aldo
 Source0: 	http://savannah.nongnu.org/download/aldo/%{name}-%{version}.tar.bz2
 BuildRequires:	libao-devel
 BuildRequires:	readline-devel
