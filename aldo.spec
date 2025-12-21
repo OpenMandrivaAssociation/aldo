@@ -6,6 +6,11 @@ License: 	GPLv2+
 Group: 		Networking/Other 
 Url: 		https://www.nongnu.org/aldo
 Source0: 	http://savannah.nongnu.org/download/aldo/%{name}-%{version}.tar.bz2
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	libao-devel
 BuildRequires:	readline-devel
 
